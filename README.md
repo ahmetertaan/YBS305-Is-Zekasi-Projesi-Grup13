@@ -51,6 +51,16 @@ Bu projeyi yerelinizde (local) çalıştırmak için aşağıdaki adımları izl
 * **Ad Soyad:** Bakhytgul Jailaubai - **Öğrenci No:** [030422053]
 * **Ad Soyad:** Rahman Mammadov - **Öğrenci No:** [030423056]
 
+  İş Zekası Ödevi Görev Dağılımı
+Kişi / Rol	Sorumluluklar & Görevler
+
+Rahman Mammadov: Veri Kaynakları ve Veri Seti Hazırlığı
+Kaggle ("Supermarket Sales Data", "Online Retail") referanslarıyla perakende_satis.csv, musteri.csv ve sepet.csv temel omurga dosyalarını hazırladı. TÜİK (ADNKS) ve İBB Açık Veri Portalı metriklerini analiz edip projeye katma değer sağlayan ilce_demografi.csv dosyasını yönergedeki "dış kaynak" şartına uygun olarak sentezledi ve ana data klasörünü oluşturdu.
+
+
+​Ahmet Nihat Sami Badem: Veri Ambarı Kurulumu ve Staging (ETL) Katmanı
+dbt-duckdb adaptörünü kurup nova_dbt projesini başlattı. Ham CSV dosyalarını DuckDB analitik veritabanına bağlayarak, verileri temizleyen ve ön işlemesini yapan models/staging katmanındaki 4 adet temel SQL görünümünü (view) yazdı.
+
 ---
 ## 📖 Veri Sözlüğü (Data Dictionary)
 
